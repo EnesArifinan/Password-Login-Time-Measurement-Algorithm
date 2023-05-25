@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sayı Artırma/Azaltma Tuşunu Devre Dışı Bırakma</title>
+  </head>
+  <body>
+    <input type="number" id="myNumber" />
+
+    <script>
+      // Input elementini seçin
+      var input = document.getElementById("myNumber");
+
+      // Sayı artırma/azaltma tuşlarını devre dışı bırakın
+
+      //ınputtakı yukarı asagı yondekı tusları kaldıran kod
+
+      // Input elementini seçin
+      var input = document.getElementById("myNumber");
+
+      // Artırma ve azaltma tuşlarını devre dışı bırakın
+      input.addEventListener("mousewheel", function (e) {
+        e.preventDefault();
+      });
+
+      input.addEventListener("keydown", function (e) {
+        if (e.keyCod === 38 || e.keyCode === 40) {
+          e.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>

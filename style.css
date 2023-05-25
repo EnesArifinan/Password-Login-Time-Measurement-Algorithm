@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.sonuc {
+  background-color: black;
+  padding: 15px;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.sonuc:hover {
+  background-color: rgb(28, 25, 25);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
+.kutu {
+  height: 60px;
+  width: 60px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.kutu:hover {
+  font-size: small;
+  background-color: rgb(71, 76, 76);
+  transition: all 0.3s ease-in;
+}
+.container {
+  display: flex;
+}
+input,
+button {
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  justify-content: center;
+  align-items: center;
+}
+button {
+  color: black;
+  background-color: white;
+}
+button:hover {
+  background-color: black;
+  color: white;
+
+  transition: all 0.3s ease-in;
+}
+/* * inputakı sayi azaltma artırma tuşlarini devre dişi birakma */
+input[type="number"]::-webkit-inner-spin-button,
+.big-container {
+  margin: 40px;
+}
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ! İnput kısmı */
+.big-container-2 {
+  text-align: center;
+}
+.container-2 {
+  display: flex;
+  justify-content: center;
+}
+.kutu-2 {
+  height: 20px;
+}
