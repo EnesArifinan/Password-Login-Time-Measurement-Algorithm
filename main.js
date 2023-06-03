@@ -1,10 +1,11 @@
 // * datalar
 const a1 = 6; //  a1konum=[1,1]
-const a2 = 4; //  21konum=[1,2]
+const a2 = 4; //  a2konum=[1,2]
 const a3 = 3; //  a3konum=[1,3]
 const a4 = 9; //  a4konum=[2,1]
 const a5 = 8; //  a5konum=[2,2]
-const a6 = 2; //  a7konum=[3,1]
+const a6 = 2; //  a6konum=[2,3]
+const a7 = 5; //  a7konum=[3,1]
 const a8 = 7; //  a8konum=[3,2]
 const a9 = 1; //  a9konum=[3,3]
 
