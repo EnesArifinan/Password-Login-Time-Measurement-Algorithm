@@ -1,5 +1,5 @@
-//* Daha optimize bir kod için deneme
-//! Tamamlanmadı
+
+//! This is for a more optimized algorithm but it is not complete yet
 
 const matrix = [
   [6, 4, 3],
