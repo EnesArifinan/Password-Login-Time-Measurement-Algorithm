@@ -1,7 +1,7 @@
 
-# Password Strength Estimation Algorithm
+# Password Login Time Measurement Algorithm
 
-This repository contains a JavaScript-based password strength estimation algorithm. The algorithm takes a user-provided password as input and calculates an estimated time in seconds that it would take to crack the password based on certain criteria. The algorithm assesses the strength of the password by analyzing the sequence of characters and their relationships with predefined reference values.
+This repository includes a JavaScript-based password login timing algorithm. The algorithm takes a user-provided password as input and calculates the password entry time in seconds based on certain criteria.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ This repository contains a JavaScript-based password strength estimation algorit
 
 ## Introduction
 
-In this project, we've developed a simple password strength estimation algorithm using JavaScript. The algorithm is designed to give users an idea of how secure their chosen password is against potential attacks.
+In this project, we developed a simple password login timer algorithm using JavaScript. The algorithm is designed to give users an idea of the password they choose.
 
 ## Question
 - According to the button model on the screen, different step distances have been defined. Each of these steps corresponds to a button.
