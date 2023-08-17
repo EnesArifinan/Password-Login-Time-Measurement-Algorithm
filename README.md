@@ -25,7 +25,8 @@ In this project, we've developed a simple password strength estimation algorithm
 - When the same button is pressed again, 0 seconds are spent.
 - You can design a JavaScript algorithm that performs this operation. This algorithm will calculate the time spent based on the step distance when a button is pressed.
 - 
-## Answer: 1055![Ekran Görüntüsü (29)6](https://github.com/EnesArifinan/Paswort-Algorithm/assets/126265835/f2783e0e-4a08-49f3-adcf-2ac078d4d388)
+## Answer
+1055![Ekran Görüntüsü (29)6](https://github.com/EnesArifinan/Paswort-Algorithm/assets/126265835/f2783e0e-4a08-49f3-adcf-2ac078d4d388)
 
 ## Usage
 
