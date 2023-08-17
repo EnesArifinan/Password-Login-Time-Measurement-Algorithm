@@ -6,12 +6,11 @@ This repository includes a JavaScript-based password login timing algorithm. The
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Usage](#usage)
 - [Question](#Question)
 - [Answer](#Answer)
+- [Usage](#usage)
 - [Algorithm Details](#algorithm-details)
 - [How It Works](#how-it-works)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
@@ -33,6 +32,42 @@ In this project, we developed a simple password login timer algorithm using Java
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/password-strength-algorithm.git
+   git clone https://github.com/EnesArifinan/Paswort-Algorithm.git
+   ```
+   
+2. Open `index.html` in a web browser.
+
+3. Enter your desired password in the input field and click the "Estimate" button.
+
+4. The estimated time in seconds required to enter the password will be displayed on the screen.
+
+## Algorithm Details
+
+The algorithm is implemented using JavaScript and HTML. It evaluates the input password by comparing its characters with predefined reference values.
+
+## How It Works
+
+1. The user enters a password into the input field.
+
+2. The password is split into an array of characters.
+
+3. The algorithm iterates through the array of characters and compares each character with predefined reference values.
+
+4. Based on comparisons, the algorithm calculates the estimated time in seconds required to enter the password.
+
+5. The estimated time is then displayed to the user.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+
+
+
+   
 
 
